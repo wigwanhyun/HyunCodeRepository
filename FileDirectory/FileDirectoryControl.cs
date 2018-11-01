@@ -14,11 +14,11 @@ namespace FileDirectoryControl
             System.IO.DirectoryInfo directoryInfo = new System.IO.DirectoryInfo(strDirectory);
             if (directoryInfo.Exists)
             {
-                //있을 때   
+                //있을 때 코딩
             }
             else
             {
-                //없을 때   
+                //없을 때 코딩
             }
         }
         public void CheckFileExists()
